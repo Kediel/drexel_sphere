@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kdl.drexelsphere.MainActivity">
+
+    <Button
+        android:id="@+id/foodButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="goto_create_view"
+        android:text="@string/button_food"
+        app:layout_constraintBottom_toTopOf="@+id/impromptuButton"
+        app:layout_constraintEnd_toStartOf="@+id/outdoorgameButton"
+        app:layout_constraintStart_toEndOf="@+id/movieButton"
+        app:layout_constraintTop_toBottomOf="@+id/videogameButton" />
+
+    <Button
+        android:id="@+id/movieButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="goto_create_view"
+        android:text="@string/button_movies"
+        app:layout_constraintBottom_toTopOf="@+id/sportsButton"
+        app:layout_constraintEnd_toStartOf="@+id/foodButton"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videogameButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/impromptuButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="goto_create_view"
+        android:text="@string/button_impromptu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sportsButton"
+        app:layout_constraintTop_toBottomOf="@+id/foodButton" />
+
+    <Button
+        android:id="@+id/sportsButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="goto_create_view"
+        android:text="@string/button_pick_up_sports"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/impromptuButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/videogameButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="goto_create_view"
+        android:text="@string/button_video_games"
+        app:layout_constraintBottom_toTopOf="@+id/foodButton"
+        app:layout_constraintEnd_toStartOf="@+id/boardgameButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/boardgameButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="goto_create_view"
+        android:text="@string/button_board_games"
+        app:layout_constraintBottom_toTopOf="@+id/foodButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/videogameButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/outdoorgameButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_green_light"
+        android:onClick="goto_create_view"
+        android:text="@string/button_outdoor_games"
+        app:layout_constraintBottom_toTopOf="@+id/impromptuButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/foodButton"
+        app:layout_constraintTop_toBottomOf="@+id/boardgameButton" />
+</android.support.constraint.ConstraintLayout>

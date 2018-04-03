@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DrexelSphere</string>
+    <string name="button_food">Food</string>
+    <string name="button_movies">Movies</string>
+    <string name="button_impromptu">Impromptu</string>
+    <string name="button_pick_up_sports">Pick-up Sports</string>
+    <string name="button_video_games">Video Games</string>
+    <string name="button_board_games">Board Games</string>
+    <string name="button_outdoor_games">Outdoor Games</string>
+    <string name="button_create">Create an Event</string>
+    <string name="event_title_message">Name the Event/Lobby</string>
+    <string name="button_view">View Event Feed</string>
+    <string name="title_lobbyevent_list">Lobbies/Events</string>
+    <string name="title_lobbyevent_detail">Lobby/Event Detail</string>
+    <string name="event_time_message">Event/Lobby start Time</string>
+    <string name="event_detail_message">Event/Lobby Details</string>
+    <string name="button_upload">Post Event</string>
+    <string name="title_activity_heat_map">Map</string>
+    <string name="title_activity_user_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
