@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Sign Out", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_sign_out"
+        android:icon="@drawable/logout"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"/>
+</menu>
